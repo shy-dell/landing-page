@@ -6,3 +6,16 @@ img {
     width: 200px;
     height: auto;   
 }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
