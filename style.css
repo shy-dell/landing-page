@@ -16,6 +16,18 @@ img {
     though may need to use height to establish set areas for each section */
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 16px;
+}
+
+.logo {
+    margin-bottom: auto;
+}
+
 .links {
     display: flex;
     list-style: none;
@@ -29,4 +41,5 @@ img {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+    padding: 16px;
 }
