@@ -26,6 +26,7 @@ img {
 
 .logo {
     margin-bottom: auto;
+    color: #B89B5E;
 }
 
 .extras {
@@ -41,5 +42,14 @@ img {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 16px
+    gap: 16px;
+    color: #B89B5E;
+}
+
+.main-text {
+    color: #B89B5E;
+}
+
+.subtext {
+    color: #F0E8D6;
 }
