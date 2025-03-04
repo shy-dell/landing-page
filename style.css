@@ -14,9 +14,8 @@ body {
 .links-img {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     max-width: 40%;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .links-img {
@@ -34,6 +33,11 @@ body {
 img {
     width: 200px;
     height: auto;   
+}
+
+img,
+.inform {
+    margin-top: 30px;
 }
 
 
