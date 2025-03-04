@@ -14,7 +14,7 @@ body {
 .links-img {
     display: flex;
     flex-direction: column;
-    max-width: 40%;
+    max-width: 30%;
     margin-bottom: 20px;
 }
 
@@ -44,6 +44,7 @@ img,
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin-top: 8px;
 }
 
 .main-text {
@@ -57,6 +58,7 @@ img,
 .hero-button button {
     color: #e5e7eb;
     font-size: 18px;
+    margin-top: 8px;
 }
 
 .hero-button button{
