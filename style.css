@@ -8,8 +8,21 @@ img {
 }
 
 .hero {
+    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
+}
+
+/* format header and links+img section to be uniform */
+.header,
+.links-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-img {
+    align-items: flex-end;
 }
 
 .links {
@@ -18,4 +31,21 @@ img {
     margin: 0;
     padding: 0;
     gap: 16px
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext,
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
 }
