@@ -3,11 +3,6 @@ body {
     margin: 0;
 }
 
-img {
-    width: 200px;
-    height: auto;   
-}
-
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -21,7 +16,7 @@ img {
     flex-direction: column;
     justify-content: space-between;
     max-width: 40%;
-    gap: 16px;
+    margin-bottom: 60px;
 }
 
 .links-img {
@@ -35,6 +30,12 @@ img {
     padding: 0;
     gap: 16px
 }
+
+img {
+    width: 200px;
+    height: auto;   
+}
+
 
 .logo {
     color: #F9FAF8;
