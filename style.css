@@ -20,6 +20,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 40%;
+    gap: 16px;
 }
 
 .links-img {
