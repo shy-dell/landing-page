@@ -156,3 +156,14 @@ use the same styles as in hero so will be found there */
     font-size: 18px;
 }
 
+/* FOOTER SECTION BELOW */
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
