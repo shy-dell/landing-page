@@ -53,7 +53,12 @@ img,
 }
 
 .subtext,
-.links {
+.links,
+.hero-button button {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero-button button{
+    background: #3882F6;
 }
