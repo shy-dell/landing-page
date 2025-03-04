@@ -55,13 +55,17 @@ img,
 
 .subtext,
 .links,
-.hero-button button {
+.hero-button button,
+.cta-button button {
     color: #e5e7eb;
     font-size: 18px;
     margin-top: 8px;
 }
 
-.hero-button button{
+/* note: cta-button border is established down in cta section to ensure priority*/
+.hero-button button,
+.cta-button button,
+.call-to-action {
     background: #3882F6;
     border-radius: 5px;
     border: 0;
@@ -117,3 +121,38 @@ img,
     width: 800px;
     margin-bottom: 80px;
 }
+
+/* BELOW IS THE CALL TO ACTION SECTION */
+/* note: the button here will 
+use the same styles as in hero so will be found there */
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    width: 900px;
+    height: 100px;
+    margin: 60px auto 60px auto;
+    /* slightly larger than containers in above 2 sections */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-button button {
+    border: 2px solid #e5e7eb;
+}
+
+.cta-head {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.cta-sub {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
